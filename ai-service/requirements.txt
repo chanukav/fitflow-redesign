@@ -1,0 +1,3 @@
+# Lists Python dependencies for the FastAPI AI service.
+fastapi
+uvicorn[standard]

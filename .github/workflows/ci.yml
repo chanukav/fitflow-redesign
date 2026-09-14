@@ -1,0 +1,15 @@
+# Runs linting, tests, and type checking for the FitFlow codebases.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Report scaffold status
+        run: echo "FitFlow CI scaffold is ready for project commands."

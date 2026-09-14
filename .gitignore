@@ -1,0 +1,11 @@
+# Excludes dependencies, build output, local secrets, and generated files.
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store

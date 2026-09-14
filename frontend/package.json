@@ -1,0 +1,13 @@
+{
+  "name": "fitflow-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "_comment": "Defines the Expo frontend package and its future scripts.",
+  "main": "App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "lint": "expo lint",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  // Configures strict TypeScript compilation for the NestJS backend.
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2022",
+    "strict": true,
+    "outDir": "./dist",
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts"]
+}

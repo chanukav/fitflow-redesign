@@ -1,0 +1,12 @@
+{
+  "name": "fitflow-backend",
+  "version": "0.1.0",
+  "private": true,
+  "_comment": "Defines the NestJS backend package and its future scripts.",
+  "scripts": {
+    "start": "nest start",
+    "lint": "eslint src --ext .ts",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  }
+}

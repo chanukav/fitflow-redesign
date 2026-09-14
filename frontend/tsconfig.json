@@ -1,0 +1,9 @@
+{
+  // Configures strict TypeScript checking for the Expo frontend.
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-native",
+    "noEmit": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
