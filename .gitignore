@@ -1,11 +1,15 @@
 # Excludes dependencies, build output, local secrets, and generated files.
 node_modules/
+.expo/
+.next/
 dist/
+build/
 coverage/
 .env
 .env.*
 !.env.example
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 .DS_Store
+Thumbs.db

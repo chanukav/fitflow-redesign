@@ -1,12 +1,12 @@
 # Runs linting, tests, and type checking for the FitFlow codebases.
-name: CI
+name: lint-and-test
 
 on:
   push:
   pull_request:
 
 jobs:
-  validate:
+  lint-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
